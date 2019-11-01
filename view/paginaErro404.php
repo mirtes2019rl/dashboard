@@ -32,6 +32,5 @@
                         </div>
                         <!-- end row -->
                         
-                    </div> <!-- End Content -->
 
                     
