@@ -1,6 +1,5 @@
 <!-- inicio do titulo da pagina -->
 
-
                         </br><div class="row">
                             <div class="col-12">
                                 <div class="page-title-box">
@@ -23,27 +22,30 @@
  <!-- conteudo da pagina -->
 
 
-               
-  <div class="form-group">
-    <label>CNPJ</label>
-    <input type="cnpj" class="controle de formulário" data-toggle="input-mask" data-mask-format="000.000.000-00" data-reverse="true">
-    <span class="font-13 text-muted">por exemplo "xxx.xxx.xxxx-xx"</span>
-</div>
 
-<div class="form-group">
-    <label>Nome da empresa</label>
-    <input type="text" class="controle de formulario" data-toggle="input-mask" data-mask-format="00.000.000/0000-00" data-reverse="true">
-    <span class="font-13 text-muted"></span>
-</div>
 
-                    <div class = "form-group"> 
-                        <label> Código do coban </label> 
-                        <input  type = "number" class = "controle de formulário" alternância de dados = "máscara de entrada" formato de máscara de  dados = "00000"> 
-                        <span  class = "font-13 muted de texto"> por exemplo "xxxxx" </span> 
-                    </div></br>
+
+
+  <form> 
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputNomeEmpresa4">Nome da empresa</label>
+      <input type="text" class= "form-control" id="inputNomeEmpresa4"> 
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputCodigoCoban"> Código do coban</label>
+      <input type= "number" class="form-control" id="CodigoCoban">
+    </div>
+  </div>
+
+    <div class="form-group">
+    <label for="inputCpfCnpj2">CPF ou CNPJ</label>
+    <input type="text" name="cpfcnpj" class="form-control" id="inputCpfCnpj" placeholder="CPF ou CNPJ">
+  </div>
+  </form>
 
     
-        <tr> 
+       </br> <tr> 
             <th> ativo? </th> 
         </tr></br>
    

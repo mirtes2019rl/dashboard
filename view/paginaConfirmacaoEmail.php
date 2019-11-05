@@ -44,7 +44,7 @@
                         </div>                       
 <!-- formulário-->
 
-                        <form action="index.html">
+                        <form action="index.php">
                             <div class="form-group mb-0 text-center">
                                 <button class="btn btn-primary btn-block" type="submit"><i class="mdi mdi-home mr-1"></i>Voltar à página inicial </button>
                             </div>

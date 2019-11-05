@@ -41,7 +41,6 @@
             <th>Taxa máxima</th> 
             <th>Prazo mínimo</th> 
             <th>Prazo máximo</th> 
-            <th>Código do convênio</th> 
             <th>Data de ínicio cálculo</th> 
             <th>Data de fim cálculo</th> 
             <th>Percentual comissão</th> 
@@ -53,26 +52,12 @@
 
 
     <tbody > 
-        <tr > 
-            <td> Tiger Nixon </td > 
-            <td> Arquiteto de sistemas </td > 
-            <td> Edimburgo </td > 
-            <td> 61 </td> 
-            <td>
-                <!-- Switch-->
-                <div>
-                    <input type="checkbox" id="switch1" checked data-switch="success"/>
-                    <label for="switch1" data-on-label="Sim" data-off-label="Não" class="mb-0 d-block"></label>
-                </div>
-            </td>
-           
-        </tr > 
+       
 
         <tr > 
             <td> Garrett Winters </td> 
             <td> Contador </td> 
             <td> Tóquio </td> 
-            <td> 63 </td> 
             <td> 63 </td> 
             <td> 63 </td> 
             <td> 63 </td> 

@@ -4,4 +4,4 @@ define('USER', 'root');
 define('PASS', '');
 define('DB', 'login');
 
-$mysqli = mysqli_connect(HOST, USER, PASS, DB) or die('Não consegui conectar');
+$mysqli = mysqli_connect(HOST, USER, PASS, DB) or die ('Não consegui conectar');

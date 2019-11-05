@@ -8,10 +8,11 @@
                                         <ol class="breadcrumb m-0">
                                             <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboard</a></li>
                                             <li class="breadcrumb-item"><a href="javascript: void(0);">Cadastros</a></li>
-                                            <li class="breadcrumb-item active">Produto</li>
+                                             <li class="breadcrumb-item"><a href="javascript: void(0);">Campanha</a></li>
+                                            <li class="breadcrumb-item active">Faixa</li>
                                         </ol>
                                     </div>
-                                    <h4 class="page-title">Cadastro de produto</h4>
+                                    <h4 class="page-title">Cadastro de campanha por faixa</h4>
                                 </div>
                             </div>
                         </div>     
@@ -25,24 +26,36 @@
   <form> 
   <div class="form-row">
     <div class="form-group col-md-6">
-      <label for="inputCodigoProduto">Código do produto</label>
+      <label for="inputCodigoProduto">Valor mínimo</label>
       <input type="number" class= "form-control" id="inputCodigoProduto"> 
     </div>
     <div class="form-group col-md-6">
-      <label for="inputTipoOperacaoProduto"> Tipo de operação do produto</label>
-      <input type= "text" class="form-control" id="inputTipoOperacaoProduto">
+      <label for="inputValorMeta"> Valor maxímo</label>
+      <input type= "number" class="form-control" id="inputValorMeta">
     </div>
   </div>
 
-    <div class="form-group">
-    <label for="inputTipoLinhaProduto">Tipo de linha do produto</label>
-    <input type="text" name="inputTipoLinhaProduto" class="form-control" id="inputTipoLinhaProduto">
+<div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputDataInicio">Data de ínicio</label>
+      <input type="date" class= "form-control" id="inputDataInicio"> 
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputDataFim">Data de fim </label>
+      <input type= "date" class="form-control" id="inputDataFim">
+    </div>
   </div>
-  <div class="form-group">
-    <label for="inputTipoProduto2">Tipo de produto</label>
-    <input type="text" name="tipoProduto" class="form-control" id="inputTipoProduto">
+
+<div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputDataInicio">Prazo mínimo</label>
+      <input type="number" class= "form-control" id="inputDataInicio"> 
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputDataFim">Premiação da faixa </label>
+      <input type= "number" class="form-control" id="inputDataFim">
+    </div>
   </div>
-  </form>
 
     
        </br><tr> 
@@ -61,7 +74,7 @@
 
 
 
-</br><button type="button" onclick="alert ('Cadastro de chave J enviado com sucesso!') " class="btn btn-success btn-rounded">Enviar cadastro de produto</button></br>
+</br><button type="button" onclick="alert ('Cadastro de metas enviado com sucesso!') " class="btn btn-success btn-rounded">Enviar cadastro de metas</button></br>
 
 
 

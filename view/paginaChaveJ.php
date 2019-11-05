@@ -20,7 +20,7 @@
 
 
 
-<!---------------------CONTEUDO DA PAGINA *QUE PODE SER ALTERADO*------------------------------->
+<!-----CONTEUDO DA PAGINA ------->
  
 
                 </br><div class="app-search">
@@ -88,6 +88,6 @@
 
 
 
-<!------------------------------------FIM DO CONTEUDO DA PAGINA ------------------------------->
+<!----fim do conteudo da pagina----->
 
 

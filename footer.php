@@ -1,5 +1,4 @@
-                    </div> <!-- End Content -->
-                    <!-- Footer Start -->
+            <!-- Footer Start -->
                     <footer class="footer">
                         <div class="container-fluid">
                             <div class="row">
@@ -40,7 +39,7 @@
 
                     <!-- Settings -->
                     <h5 class="mt-3">Esquema de cores</h5>
-                    <hr class="mt-1" />
+                    <hr class="mt-1"/>
 
                     <div class="custom-control custom-switch mb-1">
                         <input type="radio" class="custom-control-input" name="color-scheme-mode" value="light"

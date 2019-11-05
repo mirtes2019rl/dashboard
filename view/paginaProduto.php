@@ -1,22 +1,28 @@
- <!-- start page title -->
-                        <div class="row">
+ <!-- inicio do titulo da pagina -->
+
+
+                        </br><div class="row">
                             <div class="col-12">
                                 <div class="page-title-box">
                                     <div class="page-title-right">
                                         <ol class="breadcrumb m-0">
                                             <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboard</a></li>
                                             <li class="breadcrumb-item"><a href="javascript: void(0);">Cadastros</a></li>
-                                               <li class="breadcrumb-item"><a href="javascript: void(0);">Comissão</a></li>
-                                            <li class="breadcrumb-item active">Convênio e produto</li>
+                                            <li class="breadcrumb-item active">Produtos</li>
                                         </ol>
                                     </div>
-                                    <h4 class="page-title">Cadastro de comissão por Convênio e produto</h4>
-                                </div> 
+                                    <h4 class="page-title">Produto</h4>
+                                </div>
                             </div>
                         </div>     
-                        <!-- end page title --> 
-                  
 
+
+                    <!--fim do titulo da pagina -->
+
+              
+ <!-- conteudo da pagina -->
+
+  
                           </br><div class="app-search">
                     <form>
                         <div class="input-group">
@@ -33,17 +39,11 @@
  <table  id = "selection-datatable"  class = "table dt-responsive nowrap w-100" > 
     <thead > 
         <tr > 
-            <th>Código convênio</th> 
             <th>Código do produto</th> 
-            <th>Taxa máxima</th> 
-            <th>Prazo mínimo</th> 
-            <th>Prazo máximo</th> 
-            <th>Data de ínicio cálculo</th> 
-            <th>Data de fim cálculo</th> 
-            <th>Percentual comissão</th> 
+            <th>Tipo de operação do produto</th> 
+            <th>Tipo de linha do produto</th> 
+            <th>Tipo de produto</th> 
             <th>Status</th> 
-            
-            
         </tr > 
     </thead > 
 
@@ -54,11 +54,7 @@
             <td> Arquiteto de sistemas </td > 
             <td> Edimburgo </td > 
             <td> 61 </td> 
-            <td> 61 </td> 
-            <td> 61 </td>
-            <td> 61 </td> 
-            <td> 61 </td> 
-
+          
             <td>
                 <!-- Switch-->
                 <div>
@@ -74,11 +70,8 @@
             <td> Contador </td> 
             <td> Tóquio </td> 
             <td> 63 </td> 
-            <td> 63 </td> 
-            <td> 63 </td> 
-            <td> 63 </td> 
-            <td> 63 </td> 
-   
+         
+            
             <td>
                 <!-- Switch-->
                 <div>
@@ -93,4 +86,3 @@
 
 
 </br><button type="button " class="btn btn-success btn-rounded">Novo </button></br>
-                    

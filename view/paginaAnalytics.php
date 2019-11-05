@@ -134,7 +134,7 @@
                                                 <i class="mdi mdi-dots-vertical"></i>
                                             </a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <a href="javascript:void(0);" class="dropdown-item">Atualizae relatório</a>
+                                                <a href="javascript:void(0);" class="dropdown-item">Atualizar relatório</a>
                                                 <a href="javascript:void(0);" class="dropdown-item">Exportar relatório</a>
                                             </div>
                                         </div>

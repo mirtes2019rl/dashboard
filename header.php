@@ -12,7 +12,7 @@
         <!-- App css -->
         <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/app-modern.min.css" rel="stylesheet" type="text/css" id="light-style" />
-        <link href="assets/css/app-modern-dark.min.css" rel="stylesheet" type="text/css" id="dark-style" />
+        <link href="assets/css/app-modern-dark.min.css" rel="stylesheet" type="text/css" id="dark-style"/>
         <link rel="stylesheet" href="assents/fonts/SancoaleSoftened.ttf">
 
     </head>
@@ -162,26 +162,20 @@
                             </div>
 
                             <!-- item-->
-                            <a href="pagina-perfil.html" class="dropdown-item notify-item">
+                            <a href="paginaPerfil.php" class="dropdown-item notify-item">
                                 <i class="mdi mdi-account-circle mr-1"></i>
                                 <span>Minha conta</span>
                             </a>
 
-                            <!-- item-->
-                            <a href="javascript:void(0)" class="dropdown-item notify-item">
-                                <i class="mdi mdi-account-edit mr-1"></i>
-                                <span>Configurações</span>
-                            </a>
-
                            
                              <!-- item-->
-                            <a href="pagina-bloqueio.html" class="dropdown-item notify-item">
+                            <a href="paginaBloqueio.php ?>" class="dropdown-item notify-item">
                                 <i class="mdi mdi-lock-outline mr-1"></i>
                                 <span>Tela de bloqueio</span>
                             </a>
 
                             <!-- item-->
-                            <a href="pagina-logout.html" class="dropdown-item notify-item">
+                            <a href="paginaLogout.php" class="dropdown-item notify-item">
                                 <i class="mdi mdi-logout mr-1"></i>
                                 <span>Sair</span>
                             </a>
@@ -242,7 +236,7 @@
                             </a>
                            <ul class="side-nav-second-level" aria-expanded="false">
                                 <li>
-                                    <a href="dashboard-analytics.html">Google Analytics</a>
+                                    <a href="dashboardAnalytics.php">Google Analytics</a>
                                  
                                 </li>
                                
@@ -252,14 +246,14 @@
                         <li class="side-nav-title side-nav-item">Apps</li>
 
                         <li class="side-nav-item">
-                            <a href="pagina-calculo.html" class="side-nav-link">
+                            <a href="paginaCalculo.php" class="side-nav-link">
                                 <i class=" uil-calculator-alt"></i>
                                 <span> Cálculo</span>
                             </a>
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="pagina-liberação.html" class="side-nav-link">
+                            <a href="paginaLiberaçãoAcesso.php" class="side-nav-link">
                                 <i class= "uil-lock-access"></i>
                                 <span> Liberação de acesso</span>
                             </a>
@@ -273,14 +267,14 @@
                             </a>
                             <ul class="side-nav-second-level" aria-expanded="false">
                                 <li>
-                                  <a href="pagina-coban.html">Coban</a>
+                                  <a href="paginaCoban.php">Coban</a>
                                 </li>
 
                                 <li>
-                                    <a href="pagina-convenio.html">Convênios</a>
+                                    <a href="paginaConvenio.php">Convênios</a>
                                 </li>
                                 <li>
-                                    <a href="pagina-produto.html">Produtos</a>
+                                    <a href="paginaProduto.php">Produtos</a>
                                 </li>
               
                                 <li class="side-nav-item">
@@ -289,22 +283,22 @@
                                     </a>
                                     <ul class="side-nav-third-level" aria-expanded="false">
                                         <li>
-                                            <a href="pagina-convenio-2.html">Convênio</a>
+                                            <a href="paginaConvenio2.php">Convênio</a>
                                         </li>
                                         <li>
-                                            <a href="pagina-convenio-produto.html">Convênio e produto</a>
+                                            <a href="paginaConvenioProduto.php">Convênio e produto</a>
                                         </li>
                                         <li>
-                                          <a href="pagina-produto-2.html">Produto</a>
+                                          <a href="paginaProduto2.php">Produto</a>
                                         </li>
                                         <li>
-                                            <a href="pagina-taxa-prazo.html">Taxa e prazo</a>
+                                            <a href="paginaTaxaPrazo.php">Taxa e prazo</a>
                                         </li> 
                                     </ul>
                                 </li>
 
                                 <li>
-                                    <a href="pagina-metas.html">Metas</a>
+                                    <a href="paginaMetas.php">Metas</a>
                                 </li>
 
                                <li class="side-nav-item">
@@ -313,20 +307,20 @@
                                     </a>
                                     <ul class="side-nav-third-level" aria-expanded="false">
                                         <li>
-                                            <a href="pagina-grupo.html">Grupo</a>
+                                            <a href="paginaGrupo.php">Grupo</a>
                                         </li>
                                         <li>
-                                            <a href="pagina-faixa.html">faixa</a>
+                                            <a href="paginaFaixa.php">faixa</a>
                                         </li> 
                                     </ul>
                                 </li>
 
                                 <li>
-                                    <a href="pages-chavej.html">Chave J</a>
+                                    <a href="pagesChavej.php">Chave J</a>
                                 </li>
                                 
                                 <li>
-                                    <a href="pagina-equipes.html">Equipes </a>
+                                    <a href="paginaEquipes.php">Equipes </a>
                                 </li>
                             </ul>
                         </li>
@@ -340,7 +334,7 @@
                             <ul class="side-nav-second-level" aria-expanded="false">
                   
                                 <li>
-                                    <a href="pagina-upload.html">Upload de arquivo</a>
+                                    <a href="paginaUpload.php">Upload de arquivo</a>
                                 </li> 
                             </ul>
                         </li>
@@ -353,10 +347,10 @@
                             </a>
                             <ul class="side-nav-second-level" aria-expanded="false">
                                 <li>
-                                    <a href="pagina-gloogle-maps.html">Google Maps</a>
+                                    <a href="paginGloogleMaps.php">Google Maps</a>
                                 </li>
                                 <li>
-                                    <a href="pagina-mapas-vetoriais.html">Mapas Vetorizados</a>
+                                    <a href="paginaMapasVetoriais.php">Mapas Vetorizados</a>
                                 </li>
                             </ul>
                         </li>
